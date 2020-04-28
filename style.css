@@ -1,0 +1,43 @@
+#canvas {
+    margin: 0 auto;
+    display: none;
+}
+.start,
+.end {
+    height: 100vh;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start {
+    display: flex;
+}
+.end {
+    display: none;
+}
+.end__text {
+    color:#e8481d;
+    font-size: 70px;
+    font-family: monospace;
+}
+.button{
+    background-color: #a2d149;
+    border-bottom: 8px solid #91bb42;
+    border-right: 4px solid #91bb42;
+    border-left: 4px solid #91bb42;
+    border-top: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px 30px;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s;
+}
+
+.button:active {
+    border: none;
+    margin-top: 8px;
+}
